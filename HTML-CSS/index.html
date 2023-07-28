@@ -60,22 +60,34 @@
         <p>Meu Formulário</p>
         <p>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required> <!--o required informa que a info é obrigatoria no campo-->
         </p>
+    
+        <p>
+        <label for="dev">Sou um Dev</label>
+        <input type="checkbox" id="dev" name="=dev" value="sim"> <!--botao tipo check, manda info para backend-->
+        </p>
+        <p>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino"><!-- o <br> quebra a linha -->
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+        </p>
+
+<!--Botoes enviar e limpar-->
         <button type="submit">enviar</button>
         <button type="reset">Limpar</button>
     </form>
 
-    <!--botao tipo check, manda info para backend-->
-    <form action="#" method="get">
-        <p>
-            <label for="dev">Sou um Dev</label>
-            <input type="checkbox" id="dev" name="=dev" value="sim">
-        </p>
-
-
-    </form>
     
+    <p>
+        <label for="date">Data:</label><br>
+        <input type="date" id="date" name="date">
+    </p>
+
+    
+
+        
 
 
 </body>

@@ -51,7 +51,7 @@ a:hover {
 
 input:focus {
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-    cursor: not-allowed;
+   /* cursor: not-allowed; */
 }
 
 /*   muda o cursor e coloca a tag nome em cima do formulario
