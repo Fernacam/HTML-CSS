@@ -1,0 +1,29 @@
+.texto1 {
+    color: red;
+    background-color: yellow;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: left; 
+    /*text-decoration: line-through;  para riscar o texto */
+    /*text-decoration: underline; linha abaixo do textp */
+    /* text-decoration: overline; lonha acima do texto */
+    text-indent: 50px; /* indentação notar o espaço do paragrafo */
+}
+
+
+.texto2 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red; /* os numeros estao da esquerda -> direita , e do topo para baixo e esfumaçado a sombra */
+}
+
+.texto3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 2px 2px orangered;
+}
